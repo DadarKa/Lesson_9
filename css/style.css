@@ -1,0 +1,324 @@
+/* Для шриштів: налаштування шрифта+кирилиця, підключаємо завжди! Чистимо непотрібні розміри шрифта в посиланні, для кращої оптимізації.
+ &display=swap&subset=cyrillic-ext */
+
+/*@import url("https://fonts.googleapis.com/css?family=Chivo:300,300italic,regular,italic,700,700italic&display=swap&subset=cyrillic-ext");*/
+/*@import url("https://fonts.googleapis.com/css?family=Poppins:300,300italic,regular,italic,700,700italic&display=swap&subset=cyrillic-ext");*/
+@import url("https://fonts.googleapis.com/css?family=Roboto:regular,700,900&display=swap&subset=cyrillic-ext");
+
+/*@font-face {
+  font-family: "HelveticaNeue";
+  src: url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "HelveticaNeue";
+  src: url("../fonts/HelveticaNeueCyr-Roman.woff2") format("woff2"),
+    url("../fonts/HelveticaNeueCyr-Roman.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}*/
+/*@font-face {
+  font-family: "Polaris";
+  src: url("../fonts/Polaris.woff2") format("woff2"), url("../fonts/Polaris.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}*/
+/*@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/PTSans-CaptionBold.woff2") format("woff2"), url("../fonts/PTSans-CaptionBold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "PT Sans";
+  src: url("../fonts/PTSans-Caption.woff2") format("woff2"), url("../fonts/PTSans-Caption.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}*/
+
+/* Обнулення СТИЛІВ */
+*,
+*::before,
+*::after {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  box-sizing: border-box;
+}
+li {
+  list-style: none;
+}
+a,
+a:visited {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: inherit;
+  font-size: inherit;
+}
+img {
+  vertical-align: top;
+}
+html,
+body {
+  height: 100%;
+}
+body {
+  font-family: "Roboto", "Arial", sans-serif;
+  line-height: 1;
+}
+
+.footer {
+  font-family: "Roboto", serif;
+}
+.wrapper {
+  min-height: 100%;
+  overflow: hidden;
+}
+/* --------------- */
+.CarRepairandDoggie {
+}
+.OurServices {
+  padding: 110px 0px 112px 0px;
+  background: url("../img/CarRepairandDoggie/bg/bg.webp") 100% -200px / 510px no-repeat,
+    url("../img/CarRepairandDoggie/bg/bg.png") 100% -200px / 510px no-repeat #f5f5f5;
+}
+.Doggiecontainer {
+  max-width: 1020px;
+  margin: 0 auto;
+}
+.OurServicescontent {
+}
+.DoggieMainTitle {
+  margin-bottom: 36px;
+}
+.DoggieMainIcon {
+  background: url("../img/CarRepairandDoggie/icon/icon.svg") 0 0 / 24px no-repeat;
+  color: #5d62b5;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  padding-left: 32px;
+  margin: 0px 0px 33px -5px;
+}
+.DoggieMainText {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #000000;
+}
+.OurServicesCard {
+  display: inline-block;
+  font-size: 0px;
+  max-width: 1020px;
+  margin-bottom: 66px;
+}
+.CardContent {
+  display: inline-block;
+  padding: 50px 40px;
+  background-color: #ffffff;
+  border-radius: 20px;
+  width: 30%;
+  margin: 0px 24px 24px 0px;
+  vertical-align: top;
+}
+.OurServicesCard :nth-child(3) {
+  margin: 0px 0px 24px 0px;
+}
+.OurServicesCard :nth-child(4) {
+  margin: 0px 24px 0px 0px;
+}
+.OurServicesCard :nth-child(5) {
+  margin: 0px 24px 0px 0px;
+}
+.OurServicesCard *:last-child {
+  margin: 0px 0px 0px 0px;
+}
+.CardContent:hover {
+  box-shadow: 0px 16px 24px 0px rgba(38, 38, 38, 0.2), 0px 8px 16px 0px rgba(38, 38, 38, 0.24);
+}
+.CardBody {
+  text-align: center;
+}
+.CardIcon {
+  margin-bottom: 33px;
+}
+.CardText {
+}
+.CardTextTitle {
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 26px;
+  color: #f2726f;
+  margin-bottom: 20px;
+}
+.CardTextText {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #4b4b4b;
+}
+.ourbutton {
+  text-align: center;
+}
+.link {
+  display: inline-block;
+  font-weight: 700;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #f2726f;
+  border-radius: 10px;
+  padding: 12px 25px;
+}
+.Ourpromise {
+  padding: 0px 0px 122px 0px;
+  background-color: #f5f5f5;
+}
+.Doggiecontainer {
+}
+.OurServicescontent {
+}
+.DoggieMainTitlePromise {
+  margin: 0px 0px 26px 0px;
+}
+.OurpromiseCard {
+  display: inline-block;
+  max-width: 1020px;
+}
+
+.promiseContent {
+  display: inline-block;
+  font-size: 0px;
+  vertical-align: top;
+  max-width: 324px;
+}
+.promiseContentVet {
+  display: inline-block;
+  font-size: 0px;
+  vertical-align: top;
+  max-width: 324px;
+  margin-right: 47px;
+}
+
+.promiseIcon {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px 23px 0px 0px;
+}
+.promiseBody {
+  display: inline-block;
+  max-width: 235px;
+}
+
+.promiseTitle {
+  font-weight: 900;
+  font-size: 19px;
+  line-height: 26px;
+  color: #f2726f;
+  margin: 0px 0px 20px 0px;
+}
+.promiseText {
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #4b4b4b;
+}
+
+.ourimpact {
+  padding: 112px 0px 212px 0px;
+  background: url("../img/CarRepairandDoggie/our_impact/bg.webp") 75% 0 / 638px no-repeat,
+    url("../img/CarRepairandDoggie/our_impact/bg.png") 75% 0 / 638px no-repeat #29c3be;
+}
+.Doggiecontainer {
+}
+.OurServicescontent {
+  padding: 112px 0px 212px 0px;
+}
+.impactTitle {
+  margin: 0px 0px 79px 0px;
+}
+.impactIcon {
+  background: url("../img/CarRepairandDoggie/our_impact/icon.svg") 0 0 / 24px no-repeat;
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 24px;
+  letter-spacing: 2.5px;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding: 0px 0px 0px 32px;
+  margin: 0px 0px 32px -5px;
+}
+.impactText {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  max-width: 411px;
+  display: inline-block;
+}
+.impactimg {
+  display: inline-block;
+  vertical-align: top;
+  margin: -330px 0px 0px 50%;
+}
+.impactimgitem {
+  display: inline-block;
+  border-radius: 40px;
+  width: 100%;
+}
+.impactcard {
+  display: inline-block;
+  max-width: 975px;
+}
+.impactcontent {
+  display: inline-block;
+}
+.impactcard *:not(:last-child) {
+  margin: 0px 24px 0px 0px;
+}
+.impacticons {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0px 12px 0px 0px;
+}
+.impactbody {
+  display: inline-block;
+  font-size: 0;
+  vertical-align: top;
+}
+.impactcardtitle {
+  font-weight: 900;
+  font-size: 36px;
+  line-height: 42px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+.impactcardtext {
+  font-weight: bold;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.15px;
+  color: #5d62b5;
+  text-transform: lowercase;
+}
